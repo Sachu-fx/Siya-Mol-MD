@@ -13,7 +13,7 @@ command(
     },
     async (message, match) => {
         const start = new Date().getTime();
-        await message.sendMessage(tiny("*📡Checking Ping*"));
+        await message.sendMessage(tiny("*Checking Ping🚀*"));
         const end = new Date().getTime();
         return await message.sendMessage(tiny(
             "*Pong!*\n " + (end - start) + "ms"
